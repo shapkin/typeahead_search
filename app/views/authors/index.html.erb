@@ -1,0 +1,15 @@
+<h4>Without ElasticSearch:</h4>
+<input type="text" id="search1" name="search1" />
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#search1").tokenInput("/authors");
+  });
+</script>
+
+<h4>With ElasticSearch:</h4>
+<input type="text" id="search2" name="search2" />
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#search2").tokenInput("/authors/search");
+  });
+</script>
