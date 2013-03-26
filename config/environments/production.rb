@@ -66,6 +66,6 @@ Bonsai::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   Tire.configure do
-    url ENV['SEARCHBOX_URL']
+    url "http://yjm12083:e6z8gp4fhpwybm3b@fig-9568050.us-east-1.bonsai.io"
   end
 end
